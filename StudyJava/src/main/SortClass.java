@@ -1,12 +1,14 @@
 package main;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class SortClass {
 
-	public  void sort(ArrayList arr) {
-		// TODO Auto-generated method stub
-
+	public static void sort(ArrayList arr)
+	{
+		
+		Collections.sort(arr);
+		
 	}
-
 }
