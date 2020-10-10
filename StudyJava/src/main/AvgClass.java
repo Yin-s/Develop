@@ -11,7 +11,8 @@ public class AvgClass {
 		{
 			sum+=(int)arr.get(i);
 		}
-		double avg=sum/arr.size();
+		double avg=sum/arr.size(); 
+		
 		return avg;
 	}
 	public static int maxGrade(ArrayList arr) {
@@ -20,6 +21,7 @@ public class AvgClass {
 	}
 	public static int minGrade(ArrayList arr) {
 		int mingrade=(int)Collections.min(arr);
+		
 		return mingrade;
 	}
 
