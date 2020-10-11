@@ -21,6 +21,19 @@ public class MainTask {//成绩统计
 		
 		SortClass sc=new SortClass();
 		sc.sort(arr);
+		System.out.println("成绩排名为：");
+		System.out.println(arr);
+		AvgClass ac =new AvgClass();
+		System.out.println("成绩最高为：");
+		System.out.println(ac.maxGrade(arr));
+		System.out.println("成绩最低为：");
+		System.out.println(ac.minGrade(arr));
+		System.out.println("平均成绩为：");
+		System.out.println(ac.avg(arr));
+		
+		
+		SecClass sec=new SecClass();
+		sec.Section(arr);
 		
 	}
 	
